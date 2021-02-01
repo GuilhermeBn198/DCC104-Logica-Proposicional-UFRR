@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Características Sintáticas das Fórmulas</title>
+</head>
+<body>
+    <h1>Características Sintáticas das Fórmulas</h1>
+    <br>
+    <div>
+        <p>primeiramente, descobriremos como se calcular o comprimeiro de uma fórmula: basta contar seus símbolos como no exemplo</p>
+    <img src="assets\img\calculo-do-comprimento-de-uma-formula.PNG" alt="">
+    </div>
+    
+    <div>
+        <p>
+            agora iremos definir como funciona o comprimento de uma fórmula recursivamente, para podermos aplicar na prática: <br>
+            1.Se H = P&#770;, então comp[H] = 1; <br>
+            2.Comp[¬H] = comp[H + 1]; <br>
+            3.Comp[H v G] = comp[H] + comp[G] + 1; <br>
+            4.Comp[H ^ G] = comp[H] + comp[G] + 1; <br>
+            5.Comp[H &#8594; G] comp[H] + comp[G] + 1; <br>
+            6.Comp[H &#8592;&#8594; G] = comp[H] + comp[G] + 1;
+
+        </p>
+    </div>
+
+    <hr>
+    <p>
+        Referência: Souza, J.N., Lógica Para Ciência da Computação e Áreas Afins,  Editora Campus, 3a ed., 2015.
+
+        Tema da aula: Capítulo 1, página 10.
+    </p>
+</body>
+</html>
