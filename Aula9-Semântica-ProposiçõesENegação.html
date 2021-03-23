@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEMANTICA</title>
+</head>
+<body>
+    <h1>SEMÂNTICA(interpretação de fórmulas)</h1>
+    <div>
+        <h3>Definição da negação(interpretação de fórmulas)</h3>
+        <p>
+            Dadas uma fórmula E e uma interpretação I, então a <strong>interpretação</strong> de E, indicado por <strong>I[E]</strong>, é determinada pelas regras: <br>
+            1. se <strong>E</strong> é do tipo P&#770;, então <strong>I[E] = I[P&#770;]</strong> e <strong>I[P&#770;] ∈ {T, F};</strong> <br>
+            2. se <strong>E</strong> é do tipo <strong>¬H</strong>, então <strong>I[E] = I[(¬H)] = T</strong> se <strong>I[H] = F</strong> e <strong>I[E] = I[(¬H)] = F</strong> se <strong>I[H] = T;</strong> <br>
+        </p>
+    </div>
+    <div>
+        <h3>Definição da Disjunção(interpretação de fórmulas)</h3>
+        <p>
+            3. se <strong>E</strong> é do tipo <strong>(HvG)</strong>, então <strong>I[E] = I[HvG] = T</strong> se <strong>I[H] = T</strong> e/ou <strong>I[G] = T</strong> e <strong>I[E] = I[HvG] = F</strong> se <strong>I[H] = F</strong> e <strong>I[G] = F</strong>; <br>
+            também pode-se usar a tabela verdade para obter a interpretação dessa fórmula:
+            <img src="assets\img\TabelaVerdadeParaHvG.PNG" alt="">
+        </p>
+    </div>
+    <div>
+        <p>
+            Referência: Souza, J.N., Lógica Para Ciência da Computação e Áreas Afins,  Editora Campus, 3a ed., 2015.
+            <br>Tema da aula: Capítulo 2, página 23,27.
+        </p>
+    </div>
+</body>
+</html>
