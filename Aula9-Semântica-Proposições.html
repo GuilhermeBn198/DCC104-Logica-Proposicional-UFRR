@@ -9,6 +9,11 @@
 <body>
     <h1>SEMÂNTICA(interpretação de fórmulas)</h1>
     <div>
+        <p>
+            DADAS UMA FÓRMULA <STRONG>E</STRONG> E UMA INTERPRETAÇÃO <STRONG>I</STRONG>, ENTÃO A <STRONG>INTERPRETAÇÃO</STRONG> DE <STRONG>E</STRONG>, INDICADO POR <STRONG>I[E]</STRONG>, É DETERMINADA PELAS REGRAS: <br>
+        </p>
+    </div>
+    <div>
         <h3>Definição da negação(interpretação de fórmulas)</h3>
         <p>
             Dadas uma fórmula E e uma interpretação I, então a <strong>interpretação</strong> de E, indicado por <strong>I[E]</strong>, é determinada pelas regras: <br>
@@ -16,6 +21,7 @@
             2. se <strong>E</strong> é do tipo <strong>¬H</strong>, então <strong>I[E] = I[(¬H)] = T</strong> se <strong>I[H] = F</strong> e <strong>I[E] = I[(¬H)] = F</strong> se <strong>I[H] = T;</strong> <br>
         </p>
     </div>
+    
     <div>
         <h3>Definição da Disjunção(interpretação de fórmulas)</h3>
         <p>
@@ -25,9 +31,18 @@
         </p>
     </div>
     <div>
+        <h3>Definição da Implicação(interpretação de fórmulas)</h3>
+        <p>
+                5.se <strong>E</strong> é do tipo <strong>(H &RightArrow; G)</strong>, então <strong>I[E] = I[H &rightarrow;G] = T</strong> se <strong>I[E] = F</strong> e/ou <strong>I[G] = T</strong> e <strong>I[E] = I[H &RightArrow; G] = F</strong> se <strong>I[H] = T</strong> e <strong>I[G] = F</strong>. 
+        </p>
+        <img src="assets\img\TabelaVerdadeParaHImplicaG.PNG" alt="">
+    </div>
+
+
+    <div>
         <p>
             Referência: Souza, J.N., Lógica Para Ciência da Computação e Áreas Afins,  Editora Campus, 3a ed., 2015.
-            <br>Tema da aula: Capítulo 2, página 23,27.
+            <br>Tema da aula: Capítulo 2, página 23,27,29.
         </p>
     </div>
 </body>
