@@ -1,42 +1,127 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>propriedades semanticas da logica proposicional</title>
 </head>
+
 <body>
     <h1>propriedades semanticas</h1>
     <div>
-        <h2>Tautologia</h2>
-        <p>
-                <Strong>H</Strong> é uma tautologia, <strong>[se, e somente se,]</strong> para toda interpretação <strong>I, I[h] = T.</strong> <br>
+        <h2>Introdução a propriedades semanticas</h2>
+        <div>
+            <h3>Tautologia</h3>
+            <p>
+                <Strong>H</Strong> é uma tautologia, <strong>[se, e somente se,]</strong> para toda interpretação <strong>I,
+                    I[h] = T.</strong> <br>
                 <br>
                 EX: H não é uma tautologia &LessGreater;=> &exist; interpretação I; I[H] = F.
-        </p>
-        <p>tabela verdade para uma fórmula tautológica</p>
-        <img src="assets\img\ExTautologia.png" alt="">
+            </p>
+            <p>tabela verdade para uma fórmula tautológica</p>
+            <img src="assets\img\ExTautologia.png" alt="">
+        </div>
+        <div>
+            <h3>Satisfatível</h3>
+            <p>
+                <Strong>H</Strong> é satisfatível se, e somente se, existe uma interpretanção <strong>I</strong>, tal
+                que
+                <strong>I[H] = T</strong> <br>
+                <br>
+                EX:: H não é satisfatível pois ¬&exist; Interpretação I[H] = T.
+            </p>
+        </div>
+        <div>
+            <h3>Contingência</h3>
+            <p>
+                <Strong>H</Strong> é uma contigência se, e somente se, existem duas interpretações <Strong>I¹ e
+                    I²</Strong>
+                <br>
+                EX: H não é uma Contingência &LessGreater;=> H não for uma fórmula
+            </p>
+        </div>
+        <div>
+            <h3>Contraditória</h3>
+            <p>
+                <Strong>H</Strong> é contraditória se, e somente se, para toda interpretação <Strong>I, I[H] =
+                    F</Strong>.
+            </p>
+        </div>
+        <div>
+            <h3>Implicação semantica</h3>
+            <p>
+                <Strong>H</Strong> implica semanticamente <Strong>G</Strong>, ou <Strong>G</Strong> é uma consequencia
+                lógica semântica de <Strong>H</Strong> se, e somente se, para toda interpretação <Strong>I</Strong>, se
+                <Strong>I[H] = T</Strong>, então <Strong>I[G] = T</Strong> .
+            </p>
+        </div>
+        <div>
+            <h3>Equivalencia semantica</h3>
+            <p>
+                <Strong>H</Strong> equivale semanticamente a <Strong>G</Strong> se, e somente se, para toda a
+                interpretação I, <Strong>I[H] = I[G]</Strong>.
+            </p>
+        </div>
+        <div>
+            <h3>o símbolo ⊨</h3>
+            <p>
+                é utilizado para denotar a implicação semântica ou consequencia semantica, que relaciona interpretações
+                de
+                fórmulas. <br>
+                no caso em que β não implica semanticamente H, isto é, H não é consequencia lógica semantica de G, é
+                utilizada a notação: <Strong>β⊯H</Strong>.
+                <br>
+                Da mesma forma, se H implica semanticamente G, isto é, G é uma consequência lógica semântica de H,
+                denotamos esse fato por H⊨G. No caso em que H não implica semanticamente G, isto é, G não é uma
+                conseqüência lógica semântica de H, utilizamos a notação: ⊯ G.
+            </p>
+        </div>
     </div>
     <div>
-        <h2></h2>
-        <p>
-
-        </p>
+        <h2>Relações entre as propriedades semanticas</h2>
+        <div>
+            <h3>Proposição 3.1(tautologia e contradição)</h3>
+            <p>Dada uma fórmula H, então: <br>
+            <Strong>H</Strong> é tautologia se, e somente se, <Strong>¬H</Strong> é contraditória.</p>
+        </div>
+        <div>
+            <h3>Proposição 3.2(tautologia e satisfatibilidade)</h3>
+            <p>Dada uma fórmula H, se H é tautologia, então H é satisfativel</p>
+        </div>
+        <div>
+            <h3></h3>
+            <p></p>
+        </div>
+        <div>
+            <h3></h3>
+            <p></p>
+        </div>
+        <div>
+            <h3></h3>
+            <p></p>
+        </div>
+        <div>
+            <h3></h3>
+            <p></p>
+        </div>
+        <div>
+            <h3></h3>
+            <p></p>
+        </div>
+        <div>
+            <h3></h3>
+            <p></p>
+        </div>
     </div>
     <div>
-        <h2></h2>
         <p>
+            Referência: Souza, J.N., Lógica Para Ciência da Computação e Áreas Afins, Editora Campus, 3a ed., 2015. <br>
 
-        </p>
-    </div>
-
-    <div>
-        <p>
-            Referência: Souza, J.N., Lógica Para Ciência da Computação e Áreas Afins,  Editora Campus, 3a ed., 2015. <br>
-
-Tema da aula: Capítulo 3, página 50.
+            Tema da aula: Capítulo 3, página 50, 51, 52.
         </p>
     </div>
 </body>
+
 </html>
